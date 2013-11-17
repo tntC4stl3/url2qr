@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "url2qr",
+  "description": "将当前标签页的URL转换为二维码，方便手机扫描分享到微信朋友圈。",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "url2qr.png",
+    "default_popup": "popup.html"
+  }
+}
